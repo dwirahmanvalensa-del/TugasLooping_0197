@@ -59,6 +59,8 @@ int main() {
             cout << "Program Selesai" << endl;
             break;
         }
+
+        switch (pilihan) {}
     }
 }
 
