@@ -29,3 +29,12 @@ bool cekFibonacci(int n) {
     if (a == n) return true;
     else return false;
 }
+
+void tampilkanMenu() {
+    cout << "\n====== MENU PILIHAN ======" << endl;
+    cout << "1. Cek Bilangan Prima" << endl;
+    cout << "2. Cek Bilangan Fibonacci" << endl;
+    cout << "0. Keluar" << endl;
+    cout << "---------------------------" << endl;
+    cout << "Pilih Menu = ";
+}
