@@ -69,6 +69,8 @@ int main() {
                 break;
             case 2:
                 inputAngka();
+                if (cekFibonacci(angka)) hasil = "ADALAH BILANGAN FIBONACCI";
+                else hasil = "BUKAN BILANGAN FIBONACCI";
 
         }
     }
