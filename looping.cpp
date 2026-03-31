@@ -38,3 +38,8 @@ void tampilkanMenu() {
     cout << "---------------------------" << endl;
     cout << "Pilih Menu = ";
 }
+
+void inputAngka() {
+    cout << "Masukkan Angka = ";
+    cin >> angka;
+}
