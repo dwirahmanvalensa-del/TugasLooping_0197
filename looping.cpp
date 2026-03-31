@@ -65,6 +65,8 @@ int main() {
                 inputAngka();
                 if (cekPrima(angka)) hasil = "ADALAH BILANGAN PRIMA";
                 else hasil = "BUKAN BILANGAN PRIMA";
+                tampilkanHasil();
+                break;
         }
     }
 }
