@@ -60,7 +60,10 @@ int main() {
             break;
         }
 
-        switch (pilihan) {}
+        switch (pilihan) {
+            case 1:
+                inputAngka();
+        }
     }
 }
 
