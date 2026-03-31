@@ -54,6 +54,11 @@ int main() {
     while (true) {
         tampilkanMenu();
         cin >> pilihan;
+
+        if (pilihan == 0) {
+            cout << "Program Selesai" << endl;
+            break;
+        }
     }
 }
 
