@@ -51,6 +51,9 @@ void tampilkanHasil() {
 
 int main() {
 
-    while (true) {}
+    while (true) {
+        tampilkanMenu();
+        cin >> pilihan;
+    }
 }
 
