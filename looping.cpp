@@ -63,6 +63,8 @@ int main() {
         switch (pilihan) {
             case 1:
                 inputAngka();
+                if (cekPrima(angka)) hasil = "ADALAH BILANGAN PRIMA";
+                else hasil = "BUKAN BILANGAN PRIMA";
         }
     }
 }
