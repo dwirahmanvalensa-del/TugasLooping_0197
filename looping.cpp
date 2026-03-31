@@ -73,6 +73,10 @@ int main() {
                 else hasil = "BUKAN BILANGAN FIBONACCI";
                 tampilkanHasil();
                 break;
+
+            default:
+                cout << "Pilihan tidak valid!" << endl;
+                break;
         }
     }
 }
