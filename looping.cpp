@@ -67,6 +67,9 @@ int main() {
                 else hasil = "BUKAN BILANGAN PRIMA";
                 tampilkanHasil();
                 break;
+            case 2:
+                inputAngka();
+
         }
     }
 }
