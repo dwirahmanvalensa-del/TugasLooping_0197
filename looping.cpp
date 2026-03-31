@@ -71,7 +71,8 @@ int main() {
                 inputAngka();
                 if (cekFibonacci(angka)) hasil = "ADALAH BILANGAN FIBONACCI";
                 else hasil = "BUKAN BILANGAN FIBONACCI";
-
+                tampilkanHasil();
+                break;
         }
     }
 }
