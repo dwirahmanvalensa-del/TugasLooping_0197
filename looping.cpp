@@ -49,5 +49,8 @@ void tampilkanHasil() {
     cout << "---------------------------" << endl;
 }
 
-int main() {}
+int main() {
+
+    while (true) {}
+}
 
