@@ -49,3 +49,5 @@ void tampilkanHasil() {
     cout << "---------------------------" << endl;
 }
 
+int main() {}
+
