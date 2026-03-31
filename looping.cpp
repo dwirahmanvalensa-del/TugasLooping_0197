@@ -43,3 +43,9 @@ void inputAngka() {
     cout << "Masukkan Angka = ";
     cin >> angka;
 }
+
+void tampilkanHasil() {
+    cout << "Hasil Analisis = " << hasil << endl;
+    cout << "---------------------------" << endl;
+}
+
