@@ -16,3 +16,16 @@ bool cekPrima(int n) {
     }
     return true;
 }
+
+bool cekFibonacci(int n) {
+    if (n < 0) 
+    return false;
+    int a = 0, b = 1;
+    while (a < n) {
+        int simpan = a + b;
+        a = b;
+        b = simpan;
+    }
+    if (a == n) return true;
+    else return false;
+}
